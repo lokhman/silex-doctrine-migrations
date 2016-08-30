@@ -1,0 +1,22 @@
+{
+    "name": "lokhman/silex-doctrine-migrations",
+    "type": "library",
+    "description": "Silex provider for Doctrine Migrations library",
+    "keywords": ["silex", "provider", "doctrine", "migrations"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Lokhman",
+            "email": "alex.lokhman@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Lokhman\\Silex\\Provider\\": "src/" }
+    },
+    "require": {
+        "silex/silex": "~2.0",
+        "symfony/console": "~3.0",
+        "doctrine/dbal": "~2.2",
+        "doctrine/migrations": "^1.0"
+    }
+}
