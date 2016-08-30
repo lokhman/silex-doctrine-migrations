@@ -15,7 +15,7 @@ use Doctrine\DBAL\Migrations\Configuration\Configuration;
 use Doctrine\DBAL\Migrations\OutputWriter;
 
 /**
- * Silex provider for Doctrine Migrations library.
+ * Silex service provider for Doctrine Migrations library.
  *
  * @author Alexander Lokhman <alex.lokhman@gmail.com>
  * @link https://github.com/lokhman/silex-doctrine-migrations
