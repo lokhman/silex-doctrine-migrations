@@ -1,7 +1,7 @@
 {
     "name": "lokhman/silex-doctrine-migrations",
     "type": "library",
-    "description": "Silex provider for Doctrine Migrations library",
+    "description": "Silex service provider for Doctrine Migrations library",
     "keywords": ["silex", "provider", "doctrine", "migrations"],
     "license": "MIT",
     "authors": [

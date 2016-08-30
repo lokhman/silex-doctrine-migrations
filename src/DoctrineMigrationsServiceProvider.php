@@ -20,7 +20,7 @@ use Doctrine\DBAL\Migrations\OutputWriter;
  * @author Alexander Lokhman <alex.lokhman@gmail.com>
  * @link https://github.com/lokhman/silex-doctrine-migrations
  */
-class DoctrineMigrationsProvider implements ServiceProviderInterface, BootableProviderInterface {
+class DoctrineMigrationsServiceProvider implements ServiceProviderInterface, BootableProviderInterface {
 
     /**
      * The console application.
