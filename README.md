@@ -1,6 +1,7 @@
 # silex-doctrine-migrations
 Silex provider for Doctrine Migrations library.
-A Silex 2.0+ fork of https://github.com/kurlltd/silex-doctrine-migrations-provider.
+
+This is a Silex 2.0+ fork of https://github.com/kurlltd/silex-doctrine-migrations-provider.
 
 Library is fully compatible with **Silex 2.0+** (releases `2.0+`).
 
