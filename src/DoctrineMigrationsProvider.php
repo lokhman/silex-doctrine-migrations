@@ -2,6 +2,7 @@
 
 namespace Lokhman\Silex\Provider;
 
+use Pimple\Container;
 use Silex\Application;
 use Pimple\ServiceProviderInterface;
 use Silex\Api\BootableProviderInterface;
@@ -40,7 +41,7 @@ class DoctrineMigrationsProvider implements ServiceProviderInterface, BootablePr
     /**
      * {@inheritdoc}
      */
-    public function register(Application $app) {
+    public function register(Container $app) {
         $app['migrations.output_writer'] = new OutputWriter(
             function ($message) {
                 $output = new ConsoleOutput();
