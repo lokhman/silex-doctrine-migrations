@@ -1,5 +1,5 @@
 # silex-doctrine-migrations
-Silex service provider for Doctrine Migrations library.
+Silex service provider for [Doctrine Migrations library](https://github.com/doctrine/migrations).
 
 This is a Silex 2.0+ fork of https://github.com/kurlltd/silex-doctrine-migrations-provider.
 
