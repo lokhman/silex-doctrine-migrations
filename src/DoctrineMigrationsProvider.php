@@ -49,9 +49,9 @@ class DoctrineMigrationsProvider implements ServiceProviderInterface, BootablePr
             }
         );
         $app['migrations.directory']  = null;
-        $app['migrations.name']       = 'Migrations';
         $app['migrations.namespace']  = null;
-        $app['migrations.table_name'] = 'migration_versions';
+        $app['migrations.name']       = 'Migrations';
+        $app['migrations.table_name'] = '_migrations';
     }
 
     /**
@@ -81,8 +81,8 @@ class DoctrineMigrationsProvider implements ServiceProviderInterface, BootablePr
 
         $configuration = new Configuration($app['db'], $app['migrations.output_writer']);
         $configuration->setMigrationsDirectory($app['migrations.directory']);
-        $configuration->setName($app['migrations.name']);
         $configuration->setMigrationsNamespace($app['migrations.namespace']);
+        $configuration->setName($app['migrations.name']);
         $configuration->setMigrationsTableName($app['migrations.table_name']);
 
         $configuration->registerMigrationsFromDirectory($app['migrations.directory']);
